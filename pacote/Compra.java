@@ -73,11 +73,11 @@ public class Compra implements MudancaDeCategoria{
         boolean sentinela;
         if (pontos>=5){
             ClienteEspecial ce1 = new ClienteEspecial(this.converterValorEmPontos(),this.getValorCompra(),this.comprador); //transformando cliente comum em cliente especial
-            System.out.println("Parabéns sr(a) "+ce1.getDono().getNome()+", você se tornou um cliente especial com um total de "+ce1.getSaldoPontos()+" pontos e "+ce1.getValorEmCompras()+"R$" );
+            System.out.println("Parabéns sr(a) "+ce1.getDono().getNome()+", você se tornou um cliente especial com um total de "+ce1.getSaldoPontos()+" pontos e "+ce1.getValorEmCompras()+"R$ \n" );
             sentinela = true;
 
         }else{
-            System.out.println("Você ainda não atingiu os pontos necessarios pra se tornar um cliente especial faltam "+(5-pontos)+" pontos para você ascender");
+            System.out.println("Você ainda não atingiu os pontos necessarios pra se tornar um cliente especial faltam "+(5-pontos)+" pontos para você ascender\n");
             sentinela = false;
         }
         return sentinela;

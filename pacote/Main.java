@@ -2,6 +2,19 @@ package pacote;
 
 public class Main {
     public static void main(String[] args) {
+        /*Menu menu = new Menu();
+        menu.home();*/
+
+        
+
+
+        
+        /**
+         * Modo Automatico
+         * 
+         * Descomente as instancias para iniciar o modo automatico e comente os menus Scanner
+         **/
+
         /* como utilizar o programa, crie listas baseados nos produtos,
         a declaração segue a seguinte ordem, id-nome-estoque-preço*/
         //------------------Declaração dos produtos------------------------
@@ -22,5 +35,7 @@ public class Main {
         Compra co1 = new Compra(1,c1,lista);
         Produto[] lista2 = {p1};
         Compra co2 = new Compra(1,c2,lista2);
+
+
     }
 }

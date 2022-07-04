@@ -60,7 +60,7 @@ public class Menu{
 			int estoque = scan.nextInt();
 			System.out.println("Insira o preco do produto: ");
 			float preco = scan.nextFloat();
-			
+			Produto produto =  new Produto(id,nome,estoque,preco);
 			break;
 		}
 	}

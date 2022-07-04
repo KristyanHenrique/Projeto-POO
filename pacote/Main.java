@@ -35,7 +35,5 @@ public class Main {
         Compra co1 = new Compra(1,c1,lista);
         Produto[] lista2 = {p1};
         Compra co2 = new Compra(1,c2,lista2);
-
-
     }
 }
